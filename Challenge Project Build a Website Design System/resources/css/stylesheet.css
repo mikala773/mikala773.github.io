@@ -1,0 +1,910 @@
+* {
+    box-sizing: border-box;
+}
+
+p {
+    min-width: 200px;
+}
+
+
+/* NAVBAR*/
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 140px;
+    background-image: url(../images/prettybluebackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(202, 52%, 21%);
+}
+
+.button-box {
+    padding-top: 20px;
+}
+
+.button {
+    cursor: pointer;
+    display: inline-block;
+    background-color: hsla(180, 63%, 42%, .8);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    width: 95%;
+    height: 40px;
+    margin: 6px 2px;
+    padding: 5px 32px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: hsla(321, 44%, 60%);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*RIGHT MARGIN */
+#right-margin {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 140px;
+    background-image: url(../images/prettybluebackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(202, 52%, 21%);
+    z-index: 3;
+}
+
+/*MAIN SECTION*/
+main {
+    margin-left: 140px;
+    margin-right: 140px;
+    padding: 0px 20px;
+}
+
+/*BANNER SECTION*/
+#banner {
+    width: 96%;
+    min-width: 500px;
+    margin: auto;
+    height: 600px;
+    text-align: 0px;
+    border-radius: 40px;
+    text-align: center;
+    background-image: url(../images/darker-purple-pretty-pastel-crystal\ copy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: hsl(283, 64%, 63%);
+    white-space: normal;
+
+}
+
+#banner-content {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#banner-subtitle {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    text-shadow: 1px 1px 2px hsl(283, 64%, 63%), 0 0 1em hsl(283, 64%, 63%), 0 0 0.2em hsl(283, 64%, 63%);
+    color: hsl(0, 0%, 100%);
+    
+}
+
+/*HEADINGS STYLES*/
+h1 {
+    font-family: 'Galada', cursive;
+    font-weight: 400;
+    font-size: 120px;
+    text-shadow: hsl(283, 64%, 63%) 10px 0 10px;
+    color: hsl(0, 0%, 100%);
+}
+
+h2,
+h3,
+h4 {
+    margin-left: 10px;
+}
+
+h2 {
+    font-family: 'Galada', cursive;
+    font-weight: 200;
+    font-size: 50px;
+    text-shadow: hsla(180, 63%, 42%, .8) 5px 0 10px;
+    color: hsl(0, 0%, 0%);
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/*TEXT COLOR*/
+.white {
+    color: hsl(0, 0%, 100%);
+}
+
+.black {
+    color: hsl(0, 0%, 0%);
+}
+
+/*MENU SECTION*/
+#menu {
+    padding: 20px;
+}
+
+#menu ul {
+    padding: 0;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+#menu ul li {
+    padding: 0px;
+    margin: 10px auto;
+    background-color: hsl(202, 52%, 21%);
+    list-style-type: none;
+    border-radius: 40px;
+    transition-duration: 0.4s;
+}
+
+#menu ul li:hover,
+#menu ul li a:hover {
+    background-color: hsl(151, 100%, 84%);
+    color: hsl(0, 0%, 0%);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.menu-content-container {
+    height: min-content;
+    padding: 30px;
+    margin: auto;
+}
+
+.menu-title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 23px;
+}
+
+.menu-description {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+/**/
+.section-description {
+    width: 70%;
+    font-family: 'Montserrat';
+    line-height: 1.4em;
+    font-weight: 200;
+    font-size: 20px;
+    padding-bottom: 50px;
+   
+}
+
+.section-divider {
+    border-top: hsla(180, 63%, 42%, .2) solid 3px;
+}
+
+/*COLOR SECTION*/
+#color-palettes-section {
+    width: 100%;
+}
+
+.palette {
+    padding-bottom: 70px;
+}
+
+.color-box {
+    padding: 10px;
+    width: 190px;
+    height: 230px;
+    text-align: center;
+}
+
+.color-box-content {
+    padding-top: 20px;
+}
+
+.palette ul li {
+    display: inline-flex;
+    margin-top: 4px;
+}
+
+.color-name {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.font-color {
+    font-family: 'raleway', sans-serif;
+}
+
+.suggested-usage {
+    font-weight: 500;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.color-box-content .code-font {
+    white-space: nowrap;
+}
+
+.usage {
+    font-size: 15px;
+    font-style: italic;
+}
+
+/*Michelle Designs Palette*/
+#lavender-floral {
+    background-color: hsl(283, 64%, 63%);
+}
+
+#sky-magenta {
+    background-color: hsl(321, 44%, 60%);
+}
+
+#charcoal {
+    background-color: hsl(202, 52%, 21%);
+}
+
+#aquamarine {
+    background-color: hsl(151, 100%, 84%);
+}
+
+#verdigris {
+    background-color: hsl(180, 63%, 42%);
+}
+
+/*Fairy Princess Palette*/
+#thistle {
+    background-color: hsl(278, 35%, 78%);
+}
+
+#fairy-tale {
+    background-color: hsl(337, 100%, 89%);
+}
+
+#carnation-pink {
+    background-color: hsl(338, 100%, 84%);
+}
+
+#uranian-blue {
+    background-color: hsl(208, 97%, 87%);
+}
+
+#light-sky-blue {
+    background-color: hsl(209, 100%, 82%);
+}
+
+/*Watermelon Sugar*/
+#mint {
+    background-color: hsl(158, 46%, 63%);
+}
+
+#honeydew {
+    background-color: hsl(148, 52%, 89%);
+}
+
+#tickle-me-pink {
+    background-color: hsl(345, 78%, 73%);
+}
+
+#tea-rose-red {
+    background-color: hsl(352, 75%, 88%);
+}
+
+#mimi-pink {
+    background-color: hsl(332, 68%, 93%);
+}
+
+/*Sorbet palette*/
+#sandy-brown {
+    background-color: hsl(28, 100%, 66%);
+
+}
+
+#fawn {
+    background-color: hsl(30, 100%, 74%);
+
+}
+
+#arylide-yellow {
+    background-color: hsl(50, 79%, 69%);
+}
+
+#amaranth-purple {
+    background-color: hsl(348, 46%, 45%);
+}
+
+#bright-pink-crayola {
+    background-color: hsl(346, 89%, 70%);
+}
+
+/*Dark Sleek palette*/
+#platinum {
+    background-color: hsl(0, 0%, 85%);
+}
+
+#night {
+    background-color: hsl(0, 0%, 8%);
+}
+
+#jet {
+    background-color: hsl(0, 0%, 16%);
+}
+
+#onyx {
+    background-color: hsl(0, 0%, 24%);
+}
+
+#medium-slate-blue {
+    background-color: hsl(249, 69%, 64%);
+}
+
+/*Royal Palette*/
+#space-cadet {
+    background-color: hsl(227, 51%, 16%);
+}
+
+#orchid-pink {
+    background-color: hsl(347, 39%, 74%);
+}
+
+#cordovan {
+    background-color: hsl(351, 38%, 38%);
+}
+
+#air-force-blue {
+    background-color: hsl(196, 31%, 49%);
+}
+
+#columbia-blue {
+    background-color: hsl(210, 78%, 86%);
+}
+
+/*FONT SECTION*/
+.code-font {
+    font-family: 'Fira Code', monospace;
+    font-size: 11px;
+    font-weight: 100;
+    white-space: nowrap;
+}
+
+.code-font ul {
+    font-weight: 100;
+}
+
+.code-font li {
+    margin-left: 20px;
+}
+
+
+#font-families-and-styles {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+table,
+th {
+    border: hsla(0, 0%, 0%, 0.205) solid 1px;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    white-space: nowrap;
+}
+
+table {
+    margin: 10px auto;
+    width: 100%;
+    text-align: left;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.tableheadings {
+    text-transform: uppercase;
+    font-size: 12px;
+    text-decoration: underline;
+    background-color: hsl(0, 0%, 0%);
+    color: white;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.combo {
+    border-bottom: hsla(0, 0%, 0%, 0.287) dashed 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.display-preview {
+    text-align: left;
+    padding: 40px;
+    line-height: 1.2;
+    margin: 10px;
+    width: 100%;
+    margin: auto;
+    min-width: 500px;
+}
+
+.display-preview li {
+    padding-top: 10px;
+}
+
+.combo-font-list-heading {
+    font-size: 100px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+.font-example {
+    font-size: 18px;
+    text-align: left;
+    white-space: normal;
+    line-height: 1.3;
+}
+
+#font-families-and-styles ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* FONT COMBO #1*/
+#combo-1 .display-preview {
+    background-color: hsl(151, 100%, 84%);
+}
+
+.bungee-nav {
+    font-family: 'Bungee', cursive;
+    font-weight: 400;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.bungee-shade-h1 {
+    font-family: 'Bungee Shade', cursive;
+    font-weight: Regular 400;
+}
+
+.bungee-h2 {
+    font-family: 'Bungee', cursive;
+    font-weight: 400;
+}
+
+.montserrat-h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.montserrat-h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+.roboto-p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.roboto-p-light-italic {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.roboto-p-bold {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+#combo-1 .nav {
+    font-family: 'Bungee', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#combo-1 .h1 {
+    font-family: 'Bungee Shade', cursive;
+    font-weight: Regular 400;
+    font-size: 70px;
+    text-align: center;
+}
+
+#combo-1 .h2 {
+    font-family: 'Bungee', cursive;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+}
+
+#combo-1 .h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    text-align: center;
+}
+
+#combo-1 .h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: italic;
+}
+
+#combo-1 .p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#combo-1 .p-light-italic {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    font-style: italic;
+}
+
+#combo-1 .p-bold {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+/*FONT COMBO #2*/
+#combo-2 .display-preview {
+    background-color: hsl(202, 52%, 21%);
+}
+
+.pt-sans-nav {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.fira-sans-extra-condensed-h1 {
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-weight: 500;
+    font-style: oblique;
+}
+
+.lato-h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+}
+
+.pt-sans-h3 {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+}
+
+.scope-one-p {
+    font-family: "Scope One";
+    font-weight: 400;
+}
+
+.scope-one-p-light-italic {
+    font-family: "Scope One";
+    font-weight: 300;
+    font-style: italic;
+}
+
+.scope-one-p-bold {
+    font-family: "Scope One";
+    font-weight: 700;
+    font-size: 16px;
+}
+
+
+#combo-2 .nav {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+#combo-2 .h1 {
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-weight: 500;
+    font-size: 75px;
+    font-style: oblique;
+    text-align: center;
+}
+
+#combo-2 .h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    font-size: 26px;
+    text-align: center;
+}
+
+#combo-2 .h3 {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#combo-2 .p {
+    font-family: "Scope One";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.4;
+
+}
+
+#combo-2 .p-light-italic {
+    font-family: "Scope One";
+    font-weight: 300;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 1.4;
+}
+
+#combo-2 .p-bold {
+    font-family: "Scope One";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+/*FONT COMBO #3*/
+#combo-3 .display-preview {
+    background-color: hsl(180, 63%, 42%);
+}
+
+.yantramanav-nav {
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 100;
+}
+
+.alegreya-sans-sc-h1 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 100;
+}
+
+.sevillana-h2 {
+    font-family: 'Sevillana', cursive;
+    font-weight: 400;
+}
+
+.yantramanav-p {
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 300;
+}
+
+#combo-3 .nav {
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#combo-3 .h1 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 100;
+    font-size: 75px;
+    text-align: center;
+}
+
+#combo-3 .h2 {
+    font-family: 'Sevillana', cursive;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+}
+
+#combo-3 .p {
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+/*FONT COMBO #4*/
+#combo-4 .display-preview {
+    background-color: hsl(321, 44%, 60%);
+}
+
+.rubik-nav {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.scope-one-h1 {
+    font-family: 'Scope One', serif;
+    font-weight: 400;
+}
+
+.josefin-sans-h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
+}
+
+.rubik-p {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+#combo-4 .nav {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#combo-4 .h1 {
+    font-family: 'Scope One', serif;
+    font-weight: 400;
+    font-size: 100px;
+    text-align: center;
+}
+
+#combo-4 .h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+    text-align: center;
+}
+
+#combo-4 .p {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+/*FONT COMBO #5*/
+#combo-5 .display-preview {
+    background-color: hsl(283, 64%, 63%);
+}
+
+.signika-negative-nav {
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 600;
+}
+
+.petrona-h1 {
+    font-family: 'Petrona', serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.alice-h2 {
+    font-family: 'Alice', serif;
+    font-weight: 400;
+}
+
+.signika-negative-p {
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 100;
+}
+
+#combo-5 .nav {
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#combo-5 .h1 {
+    font-family: 'Petrona', serif;
+    font-weight: 800;
+    font-size: 100px;
+    font-style: italic;
+    text-align: center;
+}
+
+#combo-5 .h2 {
+    font-family: 'Alice', serif;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+}
+
+#combo-5 .p {
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 100;
+    font-size: 17px;
+}
+
+
+/*FONT COMBO #6*/
+#combo-6 .display-preview {
+    background-color: hsl(151, 100%, 84%);
+}
+
+.raleway-nav {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+.galada-h1 {
+    font-family: 'Galada', cursive;
+    font-weight: 400;
+}
+
+.galada-h2 {
+    font-family: 'Galada', cursive;
+    font-weight: 200;
+}
+
+/*.montserrat-h3 already declared */
+
+.montserrat-p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}
+
+.raleway-h4 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+#combo-6 .nav {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+#combo-6 .h1 {
+    font-family: 'Galada', cursive;
+    font-weight: 400;
+    font-size: 120px;
+    text-align: center;
+}
+
+#combo-6 .h2 {
+    font-family: 'Galada', cursive;
+    font-weight: 200;
+    font-size: 50px;
+}
+
+#combo-6 .h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+#combo-6 .h4 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#combo-6 .p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+
+
